@@ -1,0 +1,59 @@
+.socialMedia{
+    display: flex;    
+    justify-content:flex-end;
+    background-color:#f6f6f6;    
+
+    a{
+        display: block;
+        text-decoration: none;        
+        margin: 5px;
+    }
+
+    .facebook{
+        color: #526ba6;
+    }
+    .twitter{
+        color: #4cb9ee;
+    }
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;                 
+        .Logo{            
+            background-image: url(https://raw.githubusercontent.com/wei-ling-chan/-hexschool-html-final2/main/images/logo.png);
+            display: block;
+            width: 200px;
+            height: 50px;            
+            text-indent: 101%;
+            overflow: hidden;
+            white-space: nowrap;
+    }
+    .nav{
+        display: flex;
+        line-height: 50px;
+        
+        a{
+            /*display: block;*/
+            padding-left: 2px;
+            padding-right: 10px;
+            padding-bottom:2px ;
+            margin-right: 20px;           
+            text-decoration: none;
+            font-weight: bold;
+            color:$color-green;
+            cursor: pointer;           
+            
+        }
+        a:hover{
+            border-bottom:2px solid $color-green;
+            
+        }
+                 
+    }
+}
